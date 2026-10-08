@@ -1,9 +1,13 @@
 {
   "name": "blackmamer-auth",
-  "version": "1.0.0",
+  "version": "2.0.0",
+  "private": true,
   "main": "auth-server.js",
   "scripts": {
     "start": "node auth-server.js"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "dependencies": {
     "express": "^4.21.2"
